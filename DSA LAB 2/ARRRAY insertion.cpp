@@ -21,7 +21,7 @@ int main(){
 	cin>>pos;
 	cout<<" enter new value you want to insert at postion "<< pos <<" :"<<endl;
 	cin>>value;
-	//shifting elements to right 
+	//shifting elements to right: 
 	for(int i=n;i>=pos;i--){
 		arr[i]=arr[i-1];
 	}
